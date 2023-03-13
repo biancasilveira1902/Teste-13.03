@@ -1,0 +1,33 @@
+@media screen and (max-width:760px){
+    header{
+        flex-direction: column;
+    }
+
+    li{
+        margin: 6px;
+    }
+
+    #conta-button{
+        margin-left: 30px;
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    h2{
+        font-size: 34px;
+    }
+
+    form{
+        margin:0 auto;
+    }
+
+    input{
+        align-self: center;
+    }
+
+    img{
+        display: none;
+    }
+}

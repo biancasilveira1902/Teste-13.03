@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(117.84deg, rgba(128, 0, 255, 0.4) 4.45%, #8000FF 95.12%);
+    height: 100vh;
+    width: 90vw;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#text-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px 40px;
+    gap: 10px;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32px;
+    letter-spacing: 0em;
+    color: #F8F7F9;
+
+}
+
+.list-itens {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+}
+
+.list-itens li {
+    margin: 32.5px 16px;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    color: #F8F7F9;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top:20px ;
+    margin-left: 90px;
+}
+
+img {
+    width: 515px;
+    height: 300;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 86.44px;
+    color: #fff;
+}
+
+#lorem {
+    width: 559px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    color: rgba(248, 247, 249, 0.75);
+}
+
+input {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 256px 16px 16px;
+    gap: 10px;
+    width: 386px;
+    margin-top: 10px;
+    border: 2px solid #F8F7F9;
+    border-radius: 8px;
+    background-color: transparent;
+}
+
+input::placeholder {
+    color: #fff;
+}
+
+#button-input {
+    background: #F8F7F9;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+    width: 155px;
+    height: 55px;
+    margin-left: 10px;
+    margin-top: 6px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 23px;
+    color: #8000FF;
+    text-align: center;
+    padding: 14px;
+    padding-right: 15px;
+    cursor: pointer;
+    border: none;
+
+}
+
+.input {
+    display: flex;
+    align-items: row;
+}
+
+#join-now {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    color: rgba(248, 247, 249, 0.75);
+    cursor: pointer;
+    margin-left: 105px;
+}

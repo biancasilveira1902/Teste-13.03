@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+    color: white;
+}
+
+#container{
+    background: url(./img/background.jpeg);
+    padding-bottom: 100px;
+}
+
+#logo-netflix{
+    height: 35px;
+}
+
+#button-login{
+    background: #e50914;
+    font-size:16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border: 0;
+    border-radius: 3px;
+    float: right;
+    cursor: pointer;
+}
+
+#cabecalho{
+    padding: 26px 56px
+}
+
+h1{
+    text-align:center;
+    font-size: 56px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+#paragrafo-assista{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#paragrafo-pronto{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 24px;
+}
+
+input{
+    width: 500px;
+    padding-left: 10px;
+}
+
+#button-email{
+    width: 250px;
+    background: #e50914;
+    border: 0;
+    font-size:30px;
+    cursor: pointer;
+}
+
+#formulario{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: 70px;
+}
+
+#rodape{
+    background-color: black;
+    border-top: 10px solid #303030;
+    padding: 100px 0;
+}
+
+h2{
+    font-size: 50px;
+    text-align:center;
+}
+
+#button-pergunta{
+    width: 800px;
+    background-color: #303030;
+    height: 50px;
+    border: 0;
+    font-size: 24px;
+    margin-top: 40px;
+    text-align:left;
+    padding: 0 24px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    cursor: pointer;
+}
+
+#img-pergunta{
+    float: right;
+    margin-top: 8px;
+    transform: rotate(45deg);
+}
+
+#pergunta{
+    width: 800px;
+    background-color: #303030;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3px;
+    padding: 24px;
+    display: none;
+
+}
+
+.paragrafo-pergunta{
+    font-size: 24px;
+}
+
+
+
+
+
